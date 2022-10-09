@@ -1,0 +1,131 @@
+
+
+body, html {
+  background-color:#EBECF0;
+}
+
+body, p, input, select, textarea, button{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: -0.2px;
+    font-size: 16px;
+}
+
+div, p {
+  color: #BABECC;
+  text-shadow: 1px 1px 1px #FFF;
+}
+
+
+form {
+  padding: 8px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.segment {
+  padding: 32px;
+  text-align: center;
+}
+
+button, input,select {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  background-color:#EBECF0;
+  text-shadow: 1px 1px 0 #FFF;
+}
+
+label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+input {
+  margin-right: 16px/2;
+  box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;}
+
+input:focus {
+    box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+
+select {
+    margin-right: 16px/2;
+    box-shadow:  inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+    width: 100%;
+    box-sizing: border-box;
+    transition: all 0.2s ease-in-out;
+    appearance: none;
+    -webkit-appearance: none;}
+  
+select:focus {
+      box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+    }
+.butto {
+  color:#4660bf;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF,  5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;}
+  
+.butto:hover {
+    box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+    font-size: 24px;
+  }
+  
+.butto:active {
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+  }
+  
+/*  .icon {
+    margin-right: 16px/2;
+  }
+  
+    .unit {
+    border-radius: 16px/2;
+    line-height: 0;
+    width: 16px*3;
+    height: 16px*3;
+    display:inline-flex;
+    justify-content: center;
+    align-items:center;
+    margin: 0 16px/2;
+    font-size: 16px*1.2;
+    
+    icon {
+      margin-right: 0; 
+    }
+  }
+  
+  &.red {
+    display: block;
+    width: 100%;
+    color:#AE1100
+;
+  }
+}
+*/
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+  label {
+    margin: 0;
+    flex: 1;
+    color: grey;
+    padding: 8px;
+    transition: all 0.2s ease-in-out;
+
+  }
+  label:hover{
+    font-size: 20px;
+  }
